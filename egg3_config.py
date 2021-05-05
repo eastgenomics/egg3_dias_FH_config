@@ -48,8 +48,8 @@ happy_stage_id = "stage-Fq1BPKj433Gx3K4Y8J35j0fv"
 
 happy_stage_prefix = "{}.prefix".format(happy_stage_id)
 happy_stage_bed = {
-    "{}.panel_bed ID".format(happy_stage_id): "file-file-G29FqK0433GqqFVy3zgfzZYF",
-    "{}.panel_bed".format(happy_stage_id): "file-file-G29FqK0433GqqFVy3zgfzZYF"
+    "{}.panel_bed ID".format(happy_stage_id): "file-G29FqK0433GqqFVy3zgfzZYF",
+    "{}.panel_bed".format(happy_stage_id): "file-G29FqK0433GqqFVy3zgfzZYF"
 }
 
 multi_stage_input_dict = {
@@ -67,7 +67,7 @@ ms_workflow_id = "{}:workflow-FyQ2Gy0433Gz76Jp9j5YG80K".format(ref_project_id)
 # MultiQC
 
 mqc_applet_id = "{}:applet-Fz93FfQ433Gvf6pKFZYbXZQf".format(ref_project_id)
-mqc_config_file = "{}:file-ADDNEWCONFIG".format(ref_project_id)
+mqc_config_file = "{}:file-G29G8j8433Gq0KFy3z939YYf".format(ref_project_id)
 
 # Reports
 
