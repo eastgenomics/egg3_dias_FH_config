@@ -58,7 +58,7 @@ multi_stage_input_dict = {
     },
     "{}.query_vcf".format(happy_stage_id): {
         "app": "sentieon-dnaseq", "subdir": "",
-        "pattern": "NA12878-GM20-02783-FHC-EGG3_markdup_recalibrated_Haplotyper.vcf.gz$",
+        "pattern": "NA12878-*-EGG3_markdup_recalibrated_Haplotyper.vcf.gz$",
     },
 }
 
