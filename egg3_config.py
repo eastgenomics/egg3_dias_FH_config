@@ -8,6 +8,11 @@ from dias_dynamic_files import (
     genepanels_file,
 )
 
+# Assay Identification
+
+assay_name = "FH"
+assay_version = "v1.0.0"
+
 ref_project_id = "project-Fkb6Gkj433GVVvj73J7x8KbV"
 
 # Single workflow
@@ -25,8 +30,8 @@ ss_beds_inputs = {
     # input is array:file so square brackets
     # Remove targets bed to make it easier downstream
     # This enables the sention section of the pipeline to be region agnostic
-    #"{}.targets_bed ID".format(sentieon_stage_id): "[file-Fpz2VzQ433GqY28X2X8Yb1YJ]",
-    #"{}.targets_bed".format(sentieon_stage_id): "",
+    # "{}.targets_bed ID".format(sentieon_stage_id): "[file-Fpz2VzQ433GqY28X2X8Yb1YJ]",
+    # "{}.targets_bed".format(sentieon_stage_id): "",
     # vcf_qc
     "stage-Fy6fqy040vZV3Gj24vppvJgZ.bed_file ID": "file-G29FqK0433GqqFVy3zgfzZYF",
     "stage-Fy6fqy040vZV3Gj24vppvJgZ.bed_file": "",
