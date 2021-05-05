@@ -28,16 +28,16 @@ ss_beds_inputs = {
     #"{}.targets_bed ID".format(sentieon_stage_id): "[file-Fpz2VzQ433GqY28X2X8Yb1YJ]",
     #"{}.targets_bed".format(sentieon_stage_id): "",
     # vcf_qc
-    "stage-Fy6fqy040vZV3Gj24vppvJgZ.bed_file ID": "file-ADDNEWBEDFILE",
+    "stage-Fy6fqy040vZV3Gj24vppvJgZ.bed_file ID": "file-G29FqK0433GqqFVy3zgfzZYF",
     "stage-Fy6fqy040vZV3Gj24vppvJgZ.bed_file": "",
     # region coverage
-    "stage-G21GzGj433Gky42j42Q5bJkf.input_bed ID": "file-ADDNEWBEDFILE",
+    "stage-G21GzGj433Gky42j42Q5bJkf.input_bed ID": "file-G29FqK0433GqqFVy3zgfzZYF",
     "stage-G21GzGj433Gky42j42Q5bJkf.input_bed": "",
     # mosdepth
-    "stage-Fy6fvYQ40vZV1y8p9GYKPYyQ.bed ID": "file-ADDNEWBEDFILE",
+    "stage-Fy6fvYQ40vZV1y8p9GYKPYyQ.bed ID": "file-G29FqK0433GqqFVy3zgfzZYF",
     "stage-Fy6fvYQ40vZV1y8p9GYKPYyQ.bed": "",
     # picard
-    "stage-Fy6fx2Q40vZbFVxZ283xXGVY.bedfile ID": "file-ADDNEWBEDFILE",
+    "stage-Fy6fx2Q40vZbFVxZ283xXGVY.bedfile ID": "file-G29FqK0433GqqFVy3zgfzZYF",
     "stage-Fy6fx2Q40vZbFVxZ283xXGVY.bedfile": ""
 }
 
@@ -48,8 +48,8 @@ happy_stage_id = "stage-Fq1BPKj433Gx3K4Y8J35j0fv"
 
 happy_stage_prefix = "{}.prefix".format(happy_stage_id)
 happy_stage_bed = {
-    "{}.panel_bed ID".format(happy_stage_id): "file-ADDNEWBEDFILE",
-    "{}.panel_bed".format(happy_stage_id): "file-ADDNEWBEDFILE"
+    "{}.panel_bed ID".format(happy_stage_id): "file-file-G29FqK0433GqqFVy3zgfzZYF",
+    "{}.panel_bed".format(happy_stage_id): "file-file-G29FqK0433GqqFVy3zgfzZYF"
 }
 
 multi_stage_input_dict = {
