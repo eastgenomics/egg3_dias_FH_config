@@ -17,7 +17,7 @@ ref_project_id = "project-Fkb6Gkj433GVVvj73J7x8KbV"
 
 # Single workflow
 
-ss_workflow_id = "{}:workflow-G0QfxJ0433GyPP9b1VKYZYBX".format(ref_project_id)
+ss_workflow_id = "{}:workflow-G21Gx3Q433Gp80fK7z5jZ5XY".format(ref_project_id)
 
 sentieon_stage_id = "stage-Fy6fpk040vZZPPbq96Jb2KfK"
 
@@ -26,12 +26,6 @@ sentieon_R2_input_stage = "{}.reads2_fastqgzs".format(sentieon_stage_id)
 sentieon_sample_input_stage = "{}.sample".format(sentieon_stage_id)
 fastqc_fastqs_input_stage = "stage-Fy6fpV840vZZ0v6J8qBQYqZF.fastqs"
 ss_beds_inputs = {
-    # sentieon bed
-    # input is array:file so square brackets
-    # Remove targets bed to make it easier downstream
-    # This enables the sention section of the pipeline to be region agnostic
-    # "{}.targets_bed ID".format(sentieon_stage_id): "[file-Fpz2VzQ433GqY28X2X8Yb1YJ]",
-    # "{}.targets_bed".format(sentieon_stage_id): "",
     # vcf_qc
     "stage-Fy6fqy040vZV3Gj24vppvJgZ.bed_file ID": "file-G29FqK0433GqqFVy3zgfzZYF",
     "stage-Fy6fqy040vZV3Gj24vppvJgZ.bed_file": "",
@@ -72,7 +66,7 @@ ms_workflow_id = "{}:workflow-FyQ2Gy0433Gz76Jp9j5YG80K".format(ref_project_id)
 # MultiQC
 
 mqc_applet_id = "{}:applet-Fz93FfQ433Gvf6pKFZYbXZQf".format(ref_project_id)
-mqc_config_file = "{}:file-G29G8j8433Gq0KFy3z939YYf".format(ref_project_id)
+mqc_config_file = "{}:file-G2GZkZ8433Gb07v81j43Y5Jq".format(ref_project_id)
 
 # Reports
 
