@@ -30,7 +30,7 @@ ss_beds_inputs = {
     "stage-Fy6fqy040vZV3Gj24vppvJgZ.bed_file ID": "file-G29FqK0433GqqFVy3zgfzZYF",
     "stage-Fy6fqy040vZV3Gj24vppvJgZ.bed_file": "",
     # region coverage
-    "stage-G21GzGj433Gky42j42Q5bJkf.input_bed ID": "file-G29FqK0433GqqFVy3zgfzZYF",
+    "stage-G21GzGj433Gky42j42Q5bJkf.input_bed ID": "file-Fpz2X0Q433GVK5xxPvzqvVPB",
     "stage-G21GzGj433Gky42j42Q5bJkf.input_bed": "",
     # mosdepth
     "stage-Fy6fvYQ40vZV1y8p9GYKPYyQ.bed ID": "file-G29FqK0433GqqFVy3zgfzZYF",
