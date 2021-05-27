@@ -11,7 +11,7 @@ from dias_dynamic_files import (
 # Assay Identification
 
 assay_name = "FH"
-assay_version = "v1.0.0"
+assay_version = "v1.0.1"
 
 ref_project_id = "project-Fkb6Gkj433GVVvj73J7x8KbV"
 
@@ -57,7 +57,7 @@ multi_stage_input_dict = {
     },
     "{}.query_vcf".format(happy_stage_id): {
         "app": "sentieon-dnaseq", "subdir": "",
-        "pattern": "NA12878-*-EGG3_markdup_recalibrated_Haplotyper.vcf.gz$",
+        "pattern": "^NA12878-.*-EGG3_markdup_recalibrated_Haplotyper.vcf.gz$",
     },
 }
 
@@ -76,7 +76,7 @@ vcf2xls_stage_id = "stage-Fyq5ypj433GzxPK360B8Qfg5"
 generate_bed_stage_id = "stage-Fyq5yy0433GXxz691bKyvjPJ"
 athena_stage_id = "stage-Fyq5z18433GfYZbp3vX1KqjB"
 
-rpt_workflow_id = "{}:workflow-G1QxZx8433GY1Pzx92ZKp3ZK".format(ref_project_id)
+rpt_workflow_id = "{}:workflow-G2fQ9pj433GvzfqGB1KKPjY0".format(ref_project_id)
 
 rpt_stage_input_dict = {
     # vcf2xls
